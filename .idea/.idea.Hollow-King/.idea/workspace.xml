@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3e99721-21be-4f5a-ad5b-7fcb33bb3759" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hollow-King/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hollow-King/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hollow-King/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hollow-King/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_0_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_0_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_1_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_1_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_2_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_2_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_3_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_3_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_4_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_4_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_5_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_5_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_6_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_6_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_7_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_7_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_8_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_8_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_9_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_9_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_a_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_a_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_alt.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_alt_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_alt_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_any.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_any.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_any_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_any_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_apostrophe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_apostrophe.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_apostrophe_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_apostrophe_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_down_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_down_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_left_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_left_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_right_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_right_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_up_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_up_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_all.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_down_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_down_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_horizontal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_horizontal_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_horizontal_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_left_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_left_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_none.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_none.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_right_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_right_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_up_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_up_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_vertical.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_vertical_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_vertical_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_asterisk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_asterisk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_asterisk_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_asterisk_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_b.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_b_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_b_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace_icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace_icon_alternative.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace_icon_alternative.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace_icon_alternative_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace_icon_alternative_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace_icon_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace_icon_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_backspace_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_close.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_close_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_close_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_greater.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_greater.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_greater_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_greater_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_less.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_less.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_less_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_less_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_open.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_open_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_open_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_c.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_c_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_c_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_capslock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_capslock.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_capslock_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_capslock_icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_capslock_icon_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_capslock_icon_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_capslock_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_capslock_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_caret.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_caret.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_caret_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_caret_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_colon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_colon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_colon_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_colon_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_comma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_comma.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_comma_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_comma_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_command.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_command.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_command_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_command_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_ctrl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_ctrl.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_ctrl_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_ctrl_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_d.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_d_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_d_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_delete.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_delete_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_delete_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_e.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_e_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_e_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_end.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_end_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_end_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_enter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_enter.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_enter_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_enter_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_equals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_equals.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_equals_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_equals_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_escape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_escape.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_escape_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_escape_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_exclamation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_exclamation.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_exclamation_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_exclamation_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f10_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f10_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f11.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f11_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f11_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f12.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f12_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f12_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f1_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f1_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f2_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f2_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f3_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f3_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f4_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f4_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f5_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f5_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f6_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f6_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f7_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f7_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f8_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f8_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f9_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f9_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_function.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_function.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_function_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_function_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_g.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_g_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_g_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_h.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_h_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_h_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_home.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_home_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_home_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_i.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_i_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_i_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_insert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_insert.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_insert_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_insert_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_j.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_j.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_j_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_j_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_k_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_k_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_l.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_l_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_l_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_m.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_m_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_m_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_minus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_minus_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_minus_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_n.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_n_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_n_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numlock.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numlock_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numlock_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numpad_enter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numpad_enter.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numpad_enter_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numpad_enter_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numpad_plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numpad_plus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numpad_plus_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numpad_plus_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_o.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_o_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_o_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_option.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_option.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_option_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_option_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_p.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_p_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_p_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_page_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_page_down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_page_down_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_page_down_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_page_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_page_up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_page_up_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_page_up_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_period.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_period.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_period_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_period_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_plus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_plus_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_plus_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_printscreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_printscreen.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_printscreen_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_printscreen_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_q.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_q.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_q_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_q_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_question.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_question_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_question_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_quote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_quote.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_quote_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_quote_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_r.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_r_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_r_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_return.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_return.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_return_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_return_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_s.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_s_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_s_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_semicolon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_semicolon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_semicolon_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_semicolon_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_shift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_shift.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_shift_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_shift_icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_shift_icon_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_shift_icon_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_shift_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_shift_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_slash_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_slash_back.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_slash_back_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_slash_back_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_slash_forward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_slash_forward.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_slash_forward_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_slash_forward_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_space.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_space.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_space_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_space_icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_space_icon_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_space_icon_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_space_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_space_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_t.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_t_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_t_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_icon_alternative.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_icon_alternative.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_icon_alternative_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_icon_alternative_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_icon_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_icon_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tilde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tilde.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tilde_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tilde_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_u.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_u_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_u_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_v.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_v_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_v_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_w.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_w_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_w_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_win.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_win.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_win_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_win_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_x_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_x_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_y.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_y_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_y_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_z.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_z_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_z_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_horizontal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_left_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_left_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_move.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_move.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_right_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_right_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_down_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_down_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_up_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_up_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_vertical.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_vertical_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_vertical_outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_small.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_vertical.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ShopExample.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ShopExample.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ShopNPC.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ShopNPC.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ShopUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ShopUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;reterk&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SaudMSadiq/Hollow-King.git&quot;,
+    &quot;accountId&quot;: &quot;27636abf-0fe1-41a2-852d-097b49bc1203&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/ShopExample.unity" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3B5dtfYezUDZCYTQNArJtcIPlfu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;shop-feature&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3e99721-21be-4f5a-ad5b-7fcb33bb3759" name="Changes" comment="" />
+      <created>1773783086184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773783086184</updated>
+      <workItem from="1773783105640" duration="2154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+</project>

@@ -10,6 +10,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
 
+    public int gold = 0;
+    public bool[] ownedItems = {false, false, false, false};
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
