@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 3;
     public int health = 3;
@@ -19,7 +19,7 @@ public class EnemyHealth : MonoBehaviour
 
         healthBar.UpdateHealth(health, maxHealth);
 
-        Debug.Log("Enemy health: " + health);
+        Debug.Log("Player health: " + health);
 
         if (health <= 0)
         {
