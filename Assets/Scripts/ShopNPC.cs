@@ -20,7 +20,7 @@ public class ShopNPC : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            shopUI.OpenShop();
+            shopUI.ToggleShop();
         }
     }
     
@@ -29,10 +29,7 @@ public class ShopNPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
-
-            if (interactPrompt != null){
-                interactPrompt.SetActive(true);
-            }
+            interactPrompt.SetActive(true);
         }
     }
 
@@ -41,10 +38,7 @@ public class ShopNPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
-
-            if (interactPrompt != null){
-                interactPrompt.SetActive(false);
-            }
+            interactPrompt.SetActive(false);
         }
     }
                     

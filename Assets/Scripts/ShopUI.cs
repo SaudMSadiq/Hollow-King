@@ -13,6 +13,18 @@ public class ShopUI : MonoBehaviour
         CloseShop();
     }
 
+    public void ToggleShop()
+    {
+        if (shopPanel.activeSelf)
+        {
+            CloseShop();
+        }
+        else
+        {
+            OpenShop();
+        }
+    }
+    
     public void OpenShop()
     {
         shopPanel.SetActive(true);
@@ -44,6 +56,6 @@ public class ShopUI : MonoBehaviour
 
     public void UpdateGoldText()
     {
-        goldText.text = "Gold: " + player.gold;
+        goldText.text = player.gold.ToString();
     }
 }
