@@ -1,17 +1,20 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float jumpForce = 5f;
+    public float moveSpeed = 4f;
+    public float jumpForce = 3f;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
+
     private Rigidbody2D rb;
     private bool isGrounded;
     private Animator animator;
     private int attackCombo = 0;
-    private float attackTimer = 0f;
+    private float attackTimer = 2f;
     private float attackCooldown = 0.5f;
     private bool isAttacking = false;
     private bool isHurt = false;
@@ -124,4 +127,3 @@ public class Player : MonoBehaviour
         animator.SetTrigger("Death");
     }
 }
-
