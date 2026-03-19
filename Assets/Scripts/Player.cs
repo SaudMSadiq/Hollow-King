@@ -112,7 +112,6 @@ public class Player : MonoBehaviour
         if (isDead) return;
         isHurt = true;
         animator.SetTrigger("Hurt");
-        Invoke("RecoverFromHurt", 0.5f);
     }
 
     private void RecoverFromHurt()
