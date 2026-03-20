@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     private float attackTimer = 2f;
     private float attackCooldown = 0.5f;
     private bool isAttacking = false;
+    private bool isBlocking = false;
     private bool isHurt = false;
     private bool isDead = false;
 
@@ -36,13 +37,13 @@ public class Player : MonoBehaviour
         float moveInput = Input.GetAxis("Horizontal");
 
         // Movement (block during attack)
-        if (!isAttacking)
+        if (!isAttacking && !isBlocking)
         {
             rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
         }
 
         // Jump
-        if (Input.GetKey(KeyCode.W) && isGrounded)
+        if (Input.GetKey(KeyCode.W) && isGrounded && !isBlocking)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             animator.SetBool("Jump", true);
@@ -93,10 +94,16 @@ public class Player : MonoBehaviour
         }
 
         // Block
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(1)) 
+        {
             animator.SetBool("Block", true);
-        else
+            isBlocking = true;
+        }else 
+        {
             animator.SetBool("Block", false);
+            isBlocking = false;
+        }
+
 
         // Roll
         if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded)

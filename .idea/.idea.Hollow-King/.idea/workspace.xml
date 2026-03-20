@@ -49,6 +49,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -61,7 +62,7 @@
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="E:\UnityInstalls\6000.3.7f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -71,7 +72,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="E:\UnityInstalls\6000.3.7f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -106,6 +107,7 @@
       <updated>1773783086184</updated>
       <workItem from="1773783105640" duration="2154000" />
       <workItem from="1773947868138" duration="5492000" />
+      <workItem from="1773977045520" duration="1106000" />
     </task>
     <servers />
   </component>
