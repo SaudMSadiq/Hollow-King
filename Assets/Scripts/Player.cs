@@ -20,6 +20,9 @@ public class Player : MonoBehaviour
     private bool isHurt = false;
     private bool isDead = false;
 
+    public int gold = 0;
+    public bool[] ownedItems = {false, false, false, false};
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
