@@ -22,7 +22,6 @@ public class Player : MonoBehaviour
     private bool isDead = false;
 
     public int gold = 0;
-    public bool[] ownedItems = {false, false, false, false};
 
     void Start()
     {

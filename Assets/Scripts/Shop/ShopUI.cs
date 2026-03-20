@@ -7,6 +7,7 @@ public class ShopUI : MonoBehaviour
     public TextMeshProUGUI goldText;
 
     public Player player;
+    public Inventory inventory;
 
     private void Start()
     {
@@ -38,15 +39,15 @@ public class ShopUI : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void BuyItem(int itemIndex, int price)
+    public void BuyItem(string itemName, int price)
     {
         if (player.gold >= price)
         {
             player.gold -= price;
-            player.ownedItems[itemIndex] = true;
             UpdateGoldText();
+            inventory.AddItem(itemName);
 
-            Debug.Log("Bought: " + itemIndex);
+            Debug.Log("Bought " + itemName);
         }
         else
         {
@@ -54,8 +55,24 @@ public class ShopUI : MonoBehaviour
         }
     }
 
-    public void UpdateGoldText()
+    public void BuyPotion()
+    {
+        BuyItem("Potion", 25);
+    }
+    
+    public void BuyDamage()
+    {
+        BuyItem("Damage", 50);
+    }
+
+    public void BuyHealth()
+    {
+        BuyItem("Health", 50);
+    }
+
+    private void UpdateGoldText()
     {
         goldText.text = player.gold.ToString();
     }
+    
 }
