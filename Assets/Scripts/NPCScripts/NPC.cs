@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using NUnit.Framework;
 
 public class NPC : MonoBehaviour, IInteractable
 {
@@ -21,10 +22,11 @@ public class NPC : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        if (dialogueData == null || !isDialogueActive)
+        if (dialogueData == null)
         {
             return;
         }
+
         if (isDialogueActive)
         {
             NextLine();

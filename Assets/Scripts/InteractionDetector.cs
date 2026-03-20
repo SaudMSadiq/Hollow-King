@@ -6,13 +6,21 @@ public class InteractionDetector : MonoBehaviour
 {
     private IInteractable interactableInRange = null;
 
-    public void OnInteract(InputAction.CallbackContext context)
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            interactableInRange?.Interact();
+        }
+    }
+    
+    /**public void OnInteract(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
             interactableInRange?.Interact();
         }
-    }
+    }*/ // New Input System method (commented out for now)
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
