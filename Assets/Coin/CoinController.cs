@@ -11,7 +11,7 @@ public class CoinController : MonoBehaviour
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        InvokeRepeating(nameof(NextFrame), frameTime, frameTime);
+      //  InvokeRepeating(nameof(NextFrame), frameTime, frameTime);
     }
 
     void NextFrame()
