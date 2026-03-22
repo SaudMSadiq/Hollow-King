@@ -134,4 +134,9 @@ public class Player : MonoBehaviour
         isDead = true;
         animator.SetTrigger("Death");
     }
+
+    public void addCoin()
+    {
+        
+    }
 }

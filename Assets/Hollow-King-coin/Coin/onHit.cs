@@ -5,6 +5,8 @@ public class CoinPickup : MonoBehaviour
 {
     private bool collected = false;
 
+    public Player player;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (collected) return;
@@ -12,6 +14,7 @@ public class CoinPickup : MonoBehaviour
         if (other.GetComponent<Player>() != null)
         {
             collected = true;
+            player.gold+=5;
 
             Collider2D col = GetComponent<Collider2D>();
             if (col != null)
