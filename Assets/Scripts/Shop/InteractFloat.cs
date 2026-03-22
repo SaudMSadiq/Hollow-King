@@ -7,6 +7,6 @@ public class InteractFloat : MonoBehaviour
     void FixedUpdate()
     {
         float y = Mathf.Sin(Time.time * floatSpeed) * 0.1f;
-        transform.localPosition = new Vector2(0, 3.4f + y);
+        transform.position = new Vector2(transform.position.x, 3.4f + y);
     }
 }
