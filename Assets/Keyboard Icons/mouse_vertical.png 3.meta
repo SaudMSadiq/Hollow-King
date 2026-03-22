@@ -1,14 +1,16 @@
 fileFormatVersion: 2
-guid: 5f8c87aa3e6c2aa47bee2ff396a98f2c
-AssetOrigin:
-  serializedVersion: 1
-  productId: 165188
-  packageName: Hero Knight - Pixel Art
-  packageVersion: 1.2
-  assetPath: Assets/Hero Knight - Pixel Art/ColorSwap/swap_texture.png
-  uploadId: 447637
+guid: e11cbee9f3c061f4dace77627591029f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4610427758365128009
+    second: mouse_vertical_0
+  - first:
+      213: 5236182595032741968
+    second: mouse_vertical_1
+  - first:
+      213: 1517529527050246611
+    second: mouse_vertical_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -50,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +72,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -86,7 +88,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -99,15 +101,81 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mouse_vertical_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 49
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bacb0081687400c0800000000000000
+      internalID: -4610427758365128009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_vertical_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 17
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0587204e358aaa840800000000000000
+      internalID: 5236182595032741968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_vertical_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 5
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d91ffb80195f0510800000000000000
+      internalID: 1517529527050246611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 710f23cd6cd974f48beb7e6996205c9a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -116,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mouse_vertical_0: -4610427758365128009
+      mouse_vertical_1: 5236182595032741968
+      mouse_vertical_2: 1517529527050246611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
