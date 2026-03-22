@@ -7,6 +7,8 @@ public class HealthBar : MonoBehaviour
 
     public void UpdateHealth(int currentHealth, int maxHealth)
     {
+        if (fillImage == null) return;
+        
         float healthPercent = (float)currentHealth / maxHealth;
         fillImage.fillAmount = healthPercent;
     }
