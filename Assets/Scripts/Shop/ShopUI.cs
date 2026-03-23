@@ -60,6 +60,7 @@ public class ShopUI : MonoBehaviour
 
     public void BuyPotion()
     {
+        Debug.Log("Clicked");
         if (playerHealth.health >= playerHealth.maxHealth)
         {
             return;
