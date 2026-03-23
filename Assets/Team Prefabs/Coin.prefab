@@ -111,7 +111,7 @@ MonoBehaviour:
   - {fileID: 3344596444136561788, guid: ede4b03d4049f481a80ce6756418b385, type: 3}
   - {fileID: 1158639269171017508, guid: ede4b03d4049f481a80ce6756418b385, type: 3}
   - {fileID: -6541766136644436370, guid: ede4b03d4049f481a80ce6756418b385, type: 3}
-  frameTime: 0.5
+  frameTime: 0.3
 --- !u!61 &2553690806140689427
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -170,3 +170,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d8d55baa264b2d4d95ffc6d4d344c6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  player: {fileID: 0}

@@ -11,9 +11,11 @@ public class NPC : MonoBehaviour, IInteractable
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
+    public Player player;
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
+    private float savedMoveSpeed;
 
     public bool CanInteract()
     {
@@ -39,6 +41,8 @@ public class NPC : MonoBehaviour, IInteractable
 
     void StartDialogue()
     {
+        savedMoveSpeed = player.moveSpeed;
+        player.moveSpeed = 0f;
         isDialogueActive = true;
         dialogueIndex = 0;
 
@@ -93,5 +97,7 @@ public class NPC : MonoBehaviour, IInteractable
         isDialogueActive = false;
         dialogueText.SetText("");
         dialoguePanel.SetActive(false);
+        player.moveSpeed = savedMoveSpeed;
+
     }
 }

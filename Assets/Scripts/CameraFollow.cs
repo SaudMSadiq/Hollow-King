@@ -4,7 +4,7 @@ public class CameraFollow : MonoBehaviour
 {
 
     public Transform player;
-    public float smoothSpeed = 5f;
+    public float smoothSpeed = 4f;
 
     private float fixedY;
     private float fixedZ;

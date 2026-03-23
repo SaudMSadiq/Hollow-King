@@ -9,6 +9,9 @@ public class ShopUI : MonoBehaviour
     public Player player;
     public Inventory inventory;
 
+    public PlayerAttack playerAttack;
+    public PlayerHealth playerHealth;
+
     private void Start()
     {
         CloseShop();
@@ -28,8 +31,8 @@ public class ShopUI : MonoBehaviour
     
     public void OpenShop()
     {
-        shopPanel.SetActive(true);
         UpdateGoldText();
+        shopPanel.SetActive(true);
         Time.timeScale = 0f;
     }
 
@@ -45,7 +48,7 @@ public class ShopUI : MonoBehaviour
         {
             player.gold -= price;
             UpdateGoldText();
-            inventory.AddItem(itemName);
+            //inventory.AddItem(itemName); //to add back later with inventory, just testing
 
             Debug.Log("Bought " + itemName);
         }
@@ -57,17 +60,26 @@ public class ShopUI : MonoBehaviour
 
     public void BuyPotion()
     {
-        BuyItem("Potion", 25);
+        if (playerHealth.health >= playerHealth.maxHealth)
+        {
+            return;
+        }
+        BuyItem("Potion", 10);
+        playerHealth.health++;
+        playerHealth.healthBar.UpdateHealth(playerHealth.health, playerHealth.maxHealth);
     }
     
     public void BuyDamage()
     {
-        BuyItem("Damage", 50);
+        BuyItem("Damage", 25);
+        playerAttack.attackDamage++;
     }
 
     public void BuyHealth()
     {
-        BuyItem("Health", 50);
+        BuyItem("Health", 25);
+        playerHealth.maxHealth++;
+        playerHealth.healthBar.UpdateHealth(playerHealth.health, playerHealth.maxHealth);
     }
 
     private void UpdateGoldText()

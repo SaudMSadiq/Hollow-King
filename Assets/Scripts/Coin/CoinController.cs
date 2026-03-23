@@ -3,7 +3,7 @@ using UnityEngine;
 public class CoinController : MonoBehaviour
 {
     public Sprite[] frames;
-    public float frameTime = 0.4f;
+    public float frameTime = 0.3f;
 
     private SpriteRenderer sr;
     private int index = 0;

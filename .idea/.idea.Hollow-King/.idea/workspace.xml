@@ -6,14 +6,1309 @@
   <component name="ChangeListManager">
     <list default="true" id="b3e99721-21be-4f5a-ad5b-7fcb33bb3759" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hollow-King/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hollow-King/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/0.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractFloat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractFloat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/Coin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/Coin/Coin.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/Coin/Coin.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/Coin/CoinController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/Coin/CoinController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/Coin/coin-animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/Coin/coin-animation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/Coin/onHit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/Coin/onHit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hollow-King-coin/desktop.ini.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPCScripts/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPCScripts/NPC.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPCScripts/NPCDialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPCScripts/NPCDialogue.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopNPC.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopNPC.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/ShopUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shop/ShopUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Examples/Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Examples/Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Backgrounds/Mountain_Loop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Backgrounds/Mountain_Loop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Backgrounds/Sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Backgrounds/Sky.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Backgrounds/cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Backgrounds/cloud.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Backgrounds/terrain_example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Backgrounds/terrain_example.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/2D Village Pack Free/Graphics/Buildings/Building07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background/Background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background/Background1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background/Background2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background/Background2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background/Background3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background/Background3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background/Background4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background/Background4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background/Background5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Backgrounds/Platformer Tileset - Pixelart Grasslands/Background/Background5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Changelog.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Flame Glow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Flame Glow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Flame Spark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Flame Spark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Flame.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Flame.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Stone of Recall Glow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Stone of Recall Glow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Torch Flame.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/FX/MT FX Torch Flame.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/MT Village Props - Default.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Material/MT Village Props - Default.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Anvil 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Anvil 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Apple 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Apple 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Archery Target 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Archery Target 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Arrow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Arrow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Banner.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Banner.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barrel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barrel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barricade.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barricade.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Basket.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Basket.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Billboard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Billboard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bounding Platform 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bounding Platform 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bread 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bread 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Brick Wall 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Brick Wall 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bucket 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bucket 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cauldron.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cauldron.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chair.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chair.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Golden.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Iron.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Iron.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Silver.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Silver.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Wooden.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Wooden.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Clother Hanger.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Clother Hanger.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Large.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Large.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Elevator.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Elevator.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fire Bowl.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fire Bowl.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Flower 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Flower 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Flower 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Flower 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grain Box.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grain Box.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 05.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 05.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 06.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 06.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 07.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 07.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 08.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 08.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 09.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 09.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hammer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hammer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Bale.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Bale.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Fork.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Fork.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Pile.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Pile.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Heavy Sword.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Heavy Sword.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Jump Platform 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Jump Platform 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01 Side L.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01 Side L.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01 Side R.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01 Side R.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Log Bench.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Log Bench.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform Large 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform Large 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform Large 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform Large 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X16.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X16.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X24.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X24.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X32.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X32.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X40.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X40.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 L X1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 L X1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 L X2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 L X2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 R X1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 R X1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 R X2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 R X2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Lamp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Lamp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Scarecrow 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Scarecrow 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Seesaw 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Seesaw 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sign 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sign 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Slope Platform 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Slope Platform 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spear.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spear.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike Ball.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike Ball.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X24.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X24.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X32.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X32.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X40.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X40.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X48.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X48.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X64.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X64.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Statue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Statue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stone of Recall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stone of Recall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stump.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stump.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sword.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sword.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Table.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Table.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Torch.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Torch.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Training Dummy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Training Dummy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Weapon Rack.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Weapon Rack.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Well.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Well.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 05.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 05.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheelbarrow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheelbarrow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - White Bottle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - White Bottle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wine Bottle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wine Bottle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wood Log 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wood Log 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wood Logs.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wood Logs.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wooden Bridge X6.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wooden Bridge X6.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/TX Village Props - Kettle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Prefab/TX Village Props - Kettle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture/TX FX Flame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture/TX FX Flame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture/TX FX Torch Flame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture/TX FX Torch Flame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_10.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_10.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_100.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_100.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_101.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_101.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_102.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_102.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_103.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_103.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_104.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_104.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_105.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_105.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_106.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_106.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_107.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_107.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_108.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_108.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_109.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_109.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_11.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_11.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_110.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_110.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_111.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_111.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_112.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_112.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_113.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_113.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_114.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_114.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_115.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_115.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_116.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_116.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_117.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_117.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_118.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_118.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_119.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_119.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_12.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_12.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_120.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_120.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_121.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_121.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_122.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_122.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_123.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_123.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_124.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_124.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_125.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_125.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_126.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_126.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_127.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_127.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_128.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_128.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_129.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_129.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_13.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_13.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_130.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_130.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_131.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_131.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_132.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_132.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_133.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_133.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_134.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_134.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_135.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_135.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_136.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_136.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_137.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_137.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_138.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_138.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_139.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_139.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_14.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_14.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_140.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_140.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_141.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_141.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_142.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_142.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_143.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_143.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_144.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_144.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_145.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_145.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_146.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_146.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_147.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_147.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_148.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_148.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_149.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_149.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_150.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_150.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_151.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_151.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_152.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_152.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_153.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_153.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_154.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_154.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_155.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_155.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_156.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_156.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_157.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_157.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_158.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_158.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_159.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_159.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_160.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_160.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_161.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_161.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_162.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_162.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_163.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_163.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_164.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_164.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_17.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_17.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_18.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_18.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_19.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_19.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_20.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_20.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_21.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_21.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_22.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_22.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_23.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_23.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_24.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_24.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_25.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_25.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_26.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_26.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_27.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_27.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_28.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_28.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_29.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_29.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_30.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_30.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_31.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_31.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_32.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_32.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_33.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_33.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_34.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_34.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_35.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_35.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_36.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_36.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_37.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_37.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_38.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_38.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_39.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_39.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_40.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_40.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_41.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_41.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_42.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_42.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_43.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_43.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_44.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_44.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_45.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_45.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_46.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_46.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_47.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_47.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_48.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_48.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_49.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_49.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_50.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_50.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_51.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_51.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_52.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_52.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_53.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_53.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_54.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_54.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_55.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_55.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_56.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_56.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_57.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_57.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_58.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_58.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_59.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_59.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_60.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_60.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_61.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_61.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_62.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_62.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_63.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_63.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_64.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_64.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_65.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_65.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_66.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_66.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_67.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_67.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_68.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_68.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_69.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_69.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_70.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_70.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_71.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_71.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_72.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_72.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_73.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_73.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_74.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_74.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_75.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_75.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_76.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_76.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_77.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_77.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_78.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_78.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_79.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_79.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_80.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_80.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_81.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_81.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_82.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_82.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_83.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_83.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_84.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_84.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_85.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_85.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_86.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_86.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_87.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_87.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_88.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_88.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_89.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_89.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_90.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_90.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_91.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_91.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_92.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_92.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_93.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_93.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_94.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_94.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_95.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_95.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_96.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_96.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_97.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_97.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_98.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_98.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_99.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground_99.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Demo_Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Demo_Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Attack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Attack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Attack_2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Attack_2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Dying.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Dying.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Running.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Running.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Walking.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/Skeleton_Walking.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/skeleton.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Animations/skeleton.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Sprite.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Sprite/skeleton.psb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/Sprite/skeleton.psb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/skeleton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Dark fantasy - popular enemies- Free Sample/Skeleton/skeleton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/BlockFlash.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/BlockFlash.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/BlockFlash_AnimController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/BlockFlash_AnimController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_AnimController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_AnimController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Block.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Block.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_BlockIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_BlockIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_BlockNoEffect.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_BlockNoEffect.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Death.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Death.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_DeathNoBlood.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_DeathNoBlood.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Fall.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Fall.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Hurt.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Hurt.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_IdleBlock.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_IdleBlock.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_LedgeGrab.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_LedgeGrab.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Roll.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Roll.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_WallSlide.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/HeroKnight_WallSlide.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/SlideDust.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/SlideDust.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/SlideDust.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Animations/SlideDust.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/ColorSwap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/ColorSwap/ColorSwap.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/ColorSwap/ColorSwap.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/ColorSwap/Sprites-ColorSwap.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/ColorSwap/Sprites-ColorSwap.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/ColorSwap/swap_texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/ColorSwap/swap_texture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/BlockFlash.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/BlockFlash.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/HeroKnight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/HeroKnight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/HeroKnight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/HeroKnight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/HeroKnight_Yellow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/HeroKnight_Yellow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/SlideDust.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Demo/SlideDust.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/EnvironmentTiles_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/EnvironmentTiles_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/TownPalette.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/TownPalette.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/BlockFlash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/BlockFlash.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/EnvironmentTiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/EnvironmentTiles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/HeroKnight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/HeroKnight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/HeroKnight_BlockNoEffect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/HeroKnight_BlockNoEffect.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/HeroKnight_DeathNoBlood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/HeroKnight_DeathNoBlood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/SlideDust.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Hero Knight - Pixel Art/Sprites/SlideDust.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_0_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_0_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_1_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_1_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_2_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_2_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_3_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_3_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_4_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_4_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_5_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_5_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_6_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_6_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_7_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_7_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_8_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_8_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_9_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_9_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_a.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_a_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_a_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_alt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_alt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_alt_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_alt_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_any.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_any.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_any_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_any_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_apostrophe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_apostrophe.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_apostrophe_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_apostrophe_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_down_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_down_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_left_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_left_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_right_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_right_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_up_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrow_up_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_all.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_all.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_down_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_down_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_horizontal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_horizontal_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_horizontal_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_left_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_left_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_none.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_right_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_right_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_up_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_up_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_vertical_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_arrows_vertical_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_asterisk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_asterisk.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_asterisk_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_asterisk_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_b.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_b_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_b_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace_icon_alternative.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace_icon_alternative.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace_icon_alternative_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace_icon_alternative_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace_icon_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace_icon_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_backspace_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_close.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_close_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_close_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_greater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_greater.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_greater_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_greater_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_less.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_less.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_less_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_less_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_open.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_open_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_bracket_open_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_c.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_c_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_c_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_capslock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_capslock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_capslock_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_capslock_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_capslock_icon_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_capslock_icon_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_capslock_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_capslock_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_caret.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_caret.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_caret_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_caret_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_colon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_colon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_colon_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_colon_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_comma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_comma.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_comma_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_comma_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_command.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_command.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_command_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_command_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_ctrl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_ctrl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_ctrl_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_ctrl_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_d.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_d_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_d_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_delete.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_delete_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_delete_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_e.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_e_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_e_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_end.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_end.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_end_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_end_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_enter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_enter_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_enter_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_equals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_equals.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_equals_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_equals_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_escape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_escape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_escape_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_escape_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_exclamation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_exclamation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_exclamation_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_exclamation_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f10_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f10_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f11_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f11_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f12_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f12_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f1_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f1_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f2_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f2_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f3_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f3_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f4_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f4_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f5_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f5_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f6_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f6_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f7_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f7_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f8_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f8_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f9_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f9_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_f_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_function.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_function.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_function_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_function_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_g.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_g_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_g_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_h.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_h_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_h_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_home_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_home_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_i.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_i_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_i_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_insert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_insert.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_insert_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_insert_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_j.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_j.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_j_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_j_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_k.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_k_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_k_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_l.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_l_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_l_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_m.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_m_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_m_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_minus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_minus_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_minus_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_n.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_n_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_n_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numlock.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numlock_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numlock_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numpad_enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numpad_enter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numpad_enter_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numpad_enter_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numpad_plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numpad_plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numpad_plus_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_numpad_plus_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_o.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_o_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_o_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_option.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_option.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_option_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_option_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_p.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_p_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_p_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_page_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_page_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_page_down_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_page_down_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_page_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_page_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_page_up_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_page_up_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_period.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_period.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_period_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_period_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_plus_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_plus_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_printscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_printscreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_printscreen_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_printscreen_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_q.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_q_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_q_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_question.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_question_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_question_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_quote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_quote.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_quote_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_quote_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_r.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_r_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_r_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_return.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_return.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_return_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_return_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_s.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_s_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_s_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_semicolon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_semicolon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_semicolon_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_semicolon_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_shift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_shift.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_shift_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_shift_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_shift_icon_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_shift_icon_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_shift_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_shift_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_slash_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_slash_back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_slash_back_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_slash_back_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_slash_forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_slash_forward.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_slash_forward_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_slash_forward_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_space.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_space.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_space_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_space_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_space_icon_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_space_icon_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_space_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_space_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_t.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_t_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_t_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab_icon_alternative.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab_icon_alternative.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab_icon_alternative_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab_icon_alternative_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab_icon_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab_icon_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tab_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tilde.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tilde.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tilde_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_tilde_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_u.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_u.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_u_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_u_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_v.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_v_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_v_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_w.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_w_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_w_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_win.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_win.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_win_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_win_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_x_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_x_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_y.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_y_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_y_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_z.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_z.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_z_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/keyboard_z_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_horizontal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_left_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_left_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_move.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_move.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_right_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_right_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_down_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_down_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_up_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_up_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_vertical_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_scroll_vertical_outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_small.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Keyboard Icons/mouse_vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/Animations/Martial Hero.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/Animations/Martial Hero.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/Animations/Martial Hero.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/Animations/Martial Hero.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/Animations/Tutor.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/Animations/Tutor.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/License.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/Sprites/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/Sprites/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/TutorDialogue.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Sprites/Tutor/TutorDialogue.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +1338,7 @@
     <commands />
     <urls />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -51,22 +1347,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "inventory-feature",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="E:\UnityInstalls\6000.3.7f1\Editor\Unity.exe" />
@@ -116,12 +1412,14 @@
       <workItem from="1773947868138" duration="5492000" />
       <workItem from="1773977045520" duration="1407000" />
       <workItem from="1774033951405" duration="2300000" />
+      <workItem from="1774225738478" duration="5525000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />
@@ -151,5 +1449,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

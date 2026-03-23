@@ -116,27 +116,25 @@ public class Player : MonoBehaviour
     }
 
     // Call this from enemy scripts to trigger hurt
-    public void TakeHit()
-    {
-        if (isDead) return;
-        isHurt = true;
-        animator.SetTrigger("Hurt");
-    }
-
-    private void RecoverFromHurt()
-    {
-        isHurt = false;
-    }
+    // public void TakeHit()
+    // {
+    //     if (isDead) return;
+    //     isHurt = true;
+    //     animator.SetTrigger("Hurt");
+    // }
+    //
+    // private void RecoverFromHurt()
+    // {
+    //     isHurt = false;
+    // }
 
     // Call this to kill the player
     public void Die()
     {
         isDead = true;
         animator.SetTrigger("Death");
-    }
-
-    public void addCoin()
-    {
         
+        float deathLength = animator.GetCurrentAnimatorStateInfo(0).length;
+        Destroy (gameObject, deathLength);
     }
 }
