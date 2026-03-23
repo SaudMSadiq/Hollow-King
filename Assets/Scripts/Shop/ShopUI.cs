@@ -72,7 +72,7 @@ public class ShopUI : MonoBehaviour
     
     public void BuyDamage()
     {
-        BuyItem("Damage", 25);
+        BuyItem("Damage", 50);
         playerAttack.attackDamage++;
     }
 
