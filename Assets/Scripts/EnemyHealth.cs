@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -6,20 +7,28 @@ public class EnemyHealth : MonoBehaviour
     public int health = 3;
 
     public HealthBar healthBar;
+    private Animator animator;
+    private bool isDead = false;
+
+    public LevelCompleteUI levelCompleteUI;
 
     void Start()
     {
         health = maxHealth;
-        healthBar.UpdateHealth(health, maxHealth);
+        animator = GetComponent<Animator>();
+
+        if (healthBar != null)
+            healthBar.UpdateHealth(health, maxHealth);
     }
 
     public void TakeDamage(int damage)
     {
+        if (isDead) return;
+
         health -= damage;
 
-        healthBar.UpdateHealth(health, maxHealth);
-
-        Debug.Log("Enemy health: " + health);
+        if (healthBar != null)
+            healthBar.UpdateHealth(health, maxHealth);
 
         if (health <= 0)
         {
@@ -29,6 +38,22 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
+        isDead = true;
+
+        if (animator != null)
+            animator.SetTrigger("Die");
+
+        if (levelCompleteUI != null)
+        {
+            levelCompleteUI.ShowLevelComplete();
+        }
+
+        StartCoroutine(DestroyAfterDeath());
+    }
+
+    IEnumerator DestroyAfterDeath()
+    {
+        yield return new WaitForSeconds(0.8f);
         Destroy(gameObject);
     }
 }

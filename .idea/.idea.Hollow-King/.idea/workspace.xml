@@ -5,8 +5,120 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3e99721-21be-4f5a-ad5b-7fcb33bb3759" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hollow-King/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hollow-King/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Village Pack Free 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Village Pack Free 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Village Pack Free.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Village Pack Free.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Village Pack Free/Examples 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Village Pack Free/Examples 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Village Pack Free/Examples.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Village Pack Free/Examples.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Village Pack Free/Graphics 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Village Pack Free/Graphics 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Village Pack Free/Graphics.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Village Pack Free/Graphics.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation 3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation 3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Backgrounds 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Backgrounds.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Platformer Tileset - Pixelart Grasslands 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Backgrounds/Platformer Tileset - Pixelart Grasslands 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Backgrounds/Platformer Tileset - Pixelart Grasslands.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Backgrounds/Platformer Tileset - Pixelart Grasslands.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cainos 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cainos.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Platformer - Village Props.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_0.png 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_1_outline.png 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_5_outline.png 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrow_up_outline.png 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_arrows_vertical.png 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_b.png 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_greater_outline.png 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_bracket_less_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_c_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_capslock_icon_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_capslock_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_comma.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_command.png 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_command_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_d.png 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_e.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_end_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_enter.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_equals_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_escape.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_escape_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f7_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_f8_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_g_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_h.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_h_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_i.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_l_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_m_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_minus.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numpad_plus.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_numpad_plus_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_page_down.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_period.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_plus.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_plus_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_s_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_shift_icon_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_space_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_tab_icon_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_w.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_w_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/keyboard_x_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_right_outline.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_scroll_up.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Keyboard Icons/mouse_vertical.png 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/0.unity 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ShopExample.unity 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/InteractFloat 3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/InteractFloat.cs 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/ShopNPC 3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/ShopNPC.cs 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/ShopUI 3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/ShopUI.cs 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Team Prefabs 3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Team Prefabs 3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Team Prefabs/Shop.prefab 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro 3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro 3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro 4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro 4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Recovery 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Recovery 2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Recovery.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Recovery.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/0.unity 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/0.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Recovery/0.unity.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +158,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Enemy-movement-and-attack&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "Enemy-movement-and-attack",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.3.7f1/Unity.app/Contents/MacOS/Unity" />
@@ -107,6 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773783086184</updated>
       <workItem from="1773783105640" duration="2154000" />
+      <workItem from="1774273765534" duration="94000" />
     </task>
     <servers />
   </component>
@@ -120,4 +234,25 @@
     <option name="unityProjectFolder" value="true" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>
