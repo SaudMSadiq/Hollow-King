@@ -24,7 +24,22 @@ public class Player : MonoBehaviour
     private bool isDead = false;
 
     public int gold = 0;
+    
+    public static Player Instance;
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
