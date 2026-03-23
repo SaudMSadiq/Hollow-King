@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
@@ -130,11 +132,22 @@ public class Player : MonoBehaviour
 
     // Call this to kill the player
     public void Die()
-    {
-        isDead = true;
-        animator.SetTrigger("Death");
-        
-        float deathLength = animator.GetCurrentAnimatorStateInfo(0).length;
-        Destroy (gameObject, deathLength);
-    }
+{
+    isDead = true;
+    animator.SetTrigger("Death");
+    StartCoroutine(ReloadAfterDeath());
 }
+
+private IEnumerator ReloadAfterDeath()
+{
+    // Wait for animator to transition into the Death state
+    yield return null;
+    
+    float deathLength = animator.GetCurrentAnimatorStateInfo(0).length;
+    yield return new WaitForSeconds(deathLength);
+    
+    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+}
+        
+    }
+
