@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 0639e473b802de444b5378cc4a53cd2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4818841521481077081
+    second: demon_spritesheet_hurt_0
+  - first:
+      213: 4044020160974939534
+    second: demon_spritesheet_hurt_1
+  - first:
+      213: -6513454533151892398
+    second: demon_spritesheet_hurt_2
+  - first:
+      213: 32097327209202813
+    second: demon_spritesheet_hurt_3
+  - first:
+      213: 3067558843134848381
+    second: demon_spritesheet_hurt_4
+  - first:
+      213: 2375321105315011375
+    second: demon_spritesheet_hurt_5
+  - first:
+      213: -8012981570202920750
+    second: demon_spritesheet_hurt_6
+  - first:
+      213: 1314983150679058782
+    second: demon_spritesheet_hurt_7
+  - first:
+      213: 9141616386690493617
+    second: demon_spritesheet_hurt_8
+  - first:
+      213: 2868958250417132430
+    second: demon_spritesheet_hurt_9
+  - first:
+      213: -317964376805133
+    second: demon_spritesheet_hurt_10
+  - first:
+      213: -3885719495972164429
+    second: demon_spritesheet_hurt_11
+  - first:
+      213: -1815890304419293917
+    second: demon_spritesheet_hurt_12
+  - first:
+      213: 4764245967814384639
+    second: demon_spritesheet_hurt_13
+  - first:
+      213: -5415668826079314212
+    second: demon_spritesheet_hurt_14
+  - first:
+      213: 4494027293910738999
+    second: demon_spritesheet_hurt_15
+  - first:
+      213: -7286408163978629459
+    second: demon_spritesheet_hurt_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: demon_spritesheet_hurt_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 31
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aea733ea29002db0800000000000000
+      internalID: -4818841521481077081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_hurt_1
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 31
+        width: 85
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85ed6709ee3f1830800000000000000
+      internalID: 4044020160974939534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_hurt_2
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 31
+        width: 102
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cd2d2ac9f8b95a0800000000000000
+      internalID: -6513454533151892398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_hurt_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 31
+        width: 91
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d744b8a5958027000800000000000000
+      internalID: 32097327209202813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_hurt_4
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 31
+        width: 80
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d29a4e388229a20800000000000000
+      internalID: 3067558843134848381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 70db4d130e3249d4fbdaf648daac8c86
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":276.0,"y":153.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      demon_spritesheet_hurt_0: -4818841521481077081
+      demon_spritesheet_hurt_1: 4044020160974939534
+      demon_spritesheet_hurt_2: -6513454533151892398
+      demon_spritesheet_hurt_3: 32097327209202813
+      demon_spritesheet_hurt_4: 3067558843134848381
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 95f01a3f7c725904d9e489d552c11c67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7900360390481741874
+    second: demon_spritesheet_death1_0
+  - first:
+      213: -927826403310158626
+    second: demon_spritesheet_death1_1
+  - first:
+      213: 6767267386580768313
+    second: demon_spritesheet_death1_2
+  - first:
+      213: -2995367115022353349
+    second: demon_spritesheet_death1_3
+  - first:
+      213: -7532223887584019445
+    second: demon_spritesheet_death1_4
+  - first:
+      213: -5090982933053183961
+    second: demon_spritesheet_death1_5
+  - first:
+      213: -2031867507384671895
+    second: demon_spritesheet_death1_6
+  - first:
+      213: 5537980979057865071
+    second: demon_spritesheet_death1_7
+  - first:
+      213: 184600212655291348
+    second: demon_spritesheet_death1_8
+  - first:
+      213: 2312297547106365814
+    second: demon_spritesheet_death1_9
+  - first:
+      213: -3624769932533579419
+    second: demon_spritesheet_death1_10
+  - first:
+      213: 9099249590994504031
+    second: demon_spritesheet_death1_11
+  - first:
+      213: 8901588658680105093
+    second: demon_spritesheet_death1_12
+  - first:
+      213: 1784370716320558293
+    second: demon_spritesheet_death1_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: demon_spritesheet_death1_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2380b30dae7b3ad60800000000000000
+      internalID: 7900360390481741874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_death1_1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc38715dc2bf13f0800000000000000
+      internalID: -927826403310158626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_death1_2
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9369b3565d92aed50800000000000000
+      internalID: 6767267386580768313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_death1_3
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cb431aa715e66d0800000000000000
+      internalID: -2995367115022353349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_death1_4
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1
+        width: 88
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cb7db184a287790800000000000000
+      internalID: -7532223887584019445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_death1_5
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1
+        width: 95
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728e9cddef13959b0800000000000000
+      internalID: -5090982933053183961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b9cc9a07392201349930d0f8e76ae5a7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":287.0,"y":131.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      demon_spritesheet_death1_0: 7900360390481741874
+      demon_spritesheet_death1_1: -927826403310158626
+      demon_spritesheet_death1_2: 6767267386580768313
+      demon_spritesheet_death1_3: -2995367115022353349
+      demon_spritesheet_death1_4: -7532223887584019445
+      demon_spritesheet_death1_5: -5090982933053183961
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
