@@ -116,12 +116,12 @@ public class Player : MonoBehaviour
     }
 
     // Call this from enemy scripts to trigger hurt
-    // public void TakeHit()
-    // {
-    //     if (isDead) return;
-    //     isHurt = true;
-    //     animator.SetTrigger("Hurt");
-    // }
+    public void TakeHit()
+    {
+        if (isDead) return;
+        isHurt = true;
+        animator.SetTrigger("Hurt");
+    }
     //
     // private void RecoverFromHurt()
     // {
