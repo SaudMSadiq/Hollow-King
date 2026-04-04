@@ -7,8 +7,17 @@ public class PlayerAttack : MonoBehaviour
     public LayerMask enemyLayers;
     public int attackDamage = 1;
 
+    private Player player;
+
+    void Start()
+    {
+        player = GetComponent<Player>();
+    }
+
     void Update()
     {
+        if (player != null && (player.isBlocking || player.isDead)) return;
+
         if (Input.GetMouseButtonDown(0))
         {
             Attack();

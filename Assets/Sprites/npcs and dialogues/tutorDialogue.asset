@@ -15,10 +15,10 @@ MonoBehaviour:
   npcName: Tutor
   npcPortrait: {fileID: 3739671707382384996, guid: 9af9f1d88c4d7294cabcd8c1962e9ba3, type: 3}
   dialogueLines:
-  - Greetings youngs traveller.
+  - Greetings young traveller.
   - Welcome to our humble village.
   - Use A,D, and W to move around.
-  - You can attack with right click, block with left click, and roll with shift.
+  - You can attack with left click, block with right click, and roll with shift.
   - We need your help to save the village, the devil is releasing creatures from
     hell to wreak havoc!
   - Please use the captured ones to practice your skills.

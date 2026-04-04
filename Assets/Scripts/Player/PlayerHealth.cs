@@ -12,7 +12,6 @@ public class PlayerHealth : MonoBehaviour
     {
         health = maxHealth;
         player = GetComponent<Player>();
-
         if (healthBar != null)
             healthBar.UpdateHealth(health, maxHealth);
     }
@@ -21,9 +20,14 @@ public class PlayerHealth : MonoBehaviour
     {
         if (isDead) return;
 
+        if (player != null && player.isBlocking)
+        {
+            Debug.Log("Attack blocked!");
+            return;
+        }
+
         health -= damage;
         Debug.Log("Player health: " + health);
-
         if (healthBar != null)
             healthBar.UpdateHealth(health, maxHealth);
 

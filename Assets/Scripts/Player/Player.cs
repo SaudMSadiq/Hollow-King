@@ -49,7 +49,7 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
         else if (moveInput < 0)
             transform.localScale = new Vector3(-1, 1, 1);
-        if (Input.GetMouseButtonDown(0) && !isHurt)
+        if (Input.GetMouseButtonDown(0) && !isHurt && !isBlocking)
         {
             attackTimer = attackCooldown;
             attackCombo++;
