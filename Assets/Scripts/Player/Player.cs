@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float moveSpeed = 4f;
-    public float jumpForce = 3f;
+    public float jumpForce = 12f;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
@@ -21,10 +21,17 @@ public class Player : MonoBehaviour
     public bool isHurt = false;
     public bool isDead = false;
     public int gold = 0;
+    
+    public int maxJumps = 1;
+    private int jumpsRemaining;
+    private bool wasGrounded;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        
+        jumpsRemaining = maxJumps;
     }
     void Update()
     {
@@ -32,15 +39,15 @@ public class Player : MonoBehaviour
         float moveInput = Input.GetAxis("Horizontal");
         if (!isAttacking && !isBlocking)
             rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-        if (Input.GetKey(KeyCode.W) && isGrounded && !isBlocking)
+        if (Input.GetKeyDown(KeyCode.W) && jumpsRemaining > 0 && !isBlocking)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            jumpsRemaining--;
             animator.SetBool("Jump", true);
         }
-        else
-        {
-            animator.SetBool("Jump", false);
-        }
+
+        animator.SetBool("Jump", !isGrounded);
+        
         if (Mathf.Abs(moveInput) > 0 && !isAttacking)
             animator.SetInteger("AnimState", 1);
         else if (!isAttacking)
@@ -89,6 +96,13 @@ public class Player : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         animator.SetBool("Grounded", isGrounded);
+        
+        if (isGrounded && !wasGrounded)
+        {
+            jumpsRemaining = maxJumps;
+        }
+
+        wasGrounded = isGrounded;
     }
     public void Die()
     {
