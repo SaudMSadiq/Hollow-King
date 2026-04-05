@@ -4,8 +4,8 @@ using UnityEngine;
 public class DemonBossAI : MonoBehaviour
 {
     [Header("Movement")]
-    public float moveSpeed = 2f;
-    public float chaseRange = 6f;
+    public float moveSpeed = 1f;
+    public float chaseRange = 2f;
     public float attackRange = 2f;
 
     [Header("Attack")]
@@ -84,14 +84,14 @@ public class DemonBossAI : MonoBehaviour
         }
     }
 
-    void FacePlayer()
+   void FacePlayer()
     {
         Vector3 scale = transform.localScale;
 
         if (player.position.x > transform.position.x)
-            scale.x = Mathf.Abs(scale.x);
-        else
             scale.x = -Mathf.Abs(scale.x);
+        else
+            scale.x = Mathf.Abs(scale.x);
 
         transform.localScale = scale;
     }
