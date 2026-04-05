@@ -3,7 +3,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 
-    public Transform player;
+    private Transform player;
     public float smoothSpeed = 4f;
 
     private float fixedY;
@@ -11,6 +11,10 @@ public class CameraFollow : MonoBehaviour
     
     void Start()
     {
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+            player = playerObj.transform;
+        
         fixedY = transform.position.y;
         fixedZ = transform.position.z;
     }

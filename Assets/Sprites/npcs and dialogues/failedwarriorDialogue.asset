@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0853bb9d79f50fa4cbae658655c47c25, type: 3}
+  m_Name: failedwarriorDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: BarricadeWatcher
+  npcPortrait: {fileID: 5875527054735182794, guid: 28393dd55e49f0e47971170728473128, type: 3}
+  dialogueLines:
+  - Sir!
+  - Please do not go past this point, it's too dangerous!
+  - A HUGE skeleton lies ahead!
+  - If you manage to defeat it though, you'll unlock the ground pound ability!
+  - Hold S to ground pound through any weak rocks you find
+  - Good Luck!
+  autoProgressLines: 
+  autoProgressDelay: 2
+  typingSpeed: 0.02

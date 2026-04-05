@@ -26,6 +26,28 @@ public class Player : MonoBehaviour
     private int jumpsRemaining;
     private bool wasGrounded;
     
+    public bool groundPoundUnlocked = false;
+    public float groundPoundSpeed = -20f;
+    public Transform poundPoint;
+    public float poundRadius = 1.5f;
+    private bool isGroundPounding;
+    
+    public static Player Instance;
+    
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (Instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
+    
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -91,6 +113,42 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.LeftShift) && isGrounded)
             animator.SetTrigger("Roll");
+
+        if (groundPoundUnlocked)
+        {
+            // check ground
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+            // start ground pound
+            if (!isGrounded && Input.GetKeyDown(KeyCode.S) && !isGroundPounding)
+            {
+                isGroundPounding = true;
+            }
+
+            // force downward
+            if (isGroundPounding)
+            {
+                rb.linearVelocity = new Vector2(0f, groundPoundSpeed);
+            }
+
+            // landing
+            if (isGroundPounding && isGrounded)
+            {
+                isGroundPounding = false;
+
+                // destroy nearby objects
+                Collider2D[] hits = Physics2D.OverlapCircleAll(poundPoint.position, poundRadius);
+
+                foreach (Collider2D hit in hits)
+                {
+                    if (hit.CompareTag("Breakable"))
+                    {
+                        Destroy(hit.gameObject);
+                    }
+                }
+            }
+        }
+
     }
     public void FixedUpdate()
     {

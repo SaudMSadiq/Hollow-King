@@ -7,6 +7,11 @@ public class CoinPickup : MonoBehaviour
 
     public Player player;
 
+    private void Start()
+    {
+        player = Player.Instance;
+    }
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (collected) return;

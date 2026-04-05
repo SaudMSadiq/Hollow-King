@@ -38,6 +38,13 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
+        GiveGroundPound reward = GetComponentInChildren<GiveGroundPound>();
+
+        if (reward != null)
+        {
+            reward.GiveReward();
+        }
+        
         isDead = true;
 
         if (coinPrefab != null)
