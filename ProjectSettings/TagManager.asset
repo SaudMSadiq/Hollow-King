@@ -45,5 +45,8 @@ TagManager:
   - name: Healthbar
     uniqueID: 3532579149
     locked: 0
+  - name: Background
+    uniqueID: 1034169775
+    locked: 0
   m_RenderingLayers:
   - Default

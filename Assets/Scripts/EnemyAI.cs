@@ -13,13 +13,15 @@ public class EnemyAI : MonoBehaviour
 
     private Transform player;
     private float nextAttackTime = 0f;
-
     private Vector3 startPosition;
     private bool movingRight = true;
+    private Animator animator;
+    private bool attackQueued = false;
 
     void Start()
     {
         startPosition = transform.position;
+        animator = GetComponent<Animator>();
 
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
@@ -30,13 +32,14 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("Distance to player: " + Vector2.Distance(transform.position, player.position));
         if (player != null)
         {
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
             if (distanceToPlayer <= attackRange)
             {
-                AttackPlayer();
+                TryAttack();
                 return;
             }
         }
@@ -68,22 +71,51 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    void AttackPlayer()
+    void TryAttack()
     {
         FacePlayer();
 
-        if (Time.time >= nextAttackTime)
+        if (Time.time >= nextAttackTime && !attackQueued)
+        {
+            attackQueued = true;
+            Debug.Log("Enemy trigger attack");
+
+            if (animator != null)
+            {
+                animator.SetTrigger("Attack");
+                Debug.Log("Attack trigger sent");
+            }
+            else
+            {
+                Debug.Log("Animator is NULL");
+            }
+
+            nextAttackTime = Time.time + attackCooldown;
+        }
+    }
+
+    // Call this from the animation event
+    public void DealDamageToPlayer()
+    {
+        if (player == null) return;
+
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+        if (distanceToPlayer <= attackRange)
         {
             PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
 
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(attackDamage);
-                Debug.Log("Enemy attacked player!");
             }
-
-            nextAttackTime = Time.time + attackCooldown;
         }
+    }
+
+    // Call this from the end of the attack animation if needed
+    public void EndAttack()
+    {
+        attackQueued = false;
     }
 
     void FacePlayer()
