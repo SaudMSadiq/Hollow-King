@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Rendering.Universal;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
@@ -34,6 +35,8 @@ public class Player : MonoBehaviour
     
     public static Player Instance;
     
+    public Light2D playerLight;
+    
     void Awake()
     {
         if (Instance == null)
@@ -57,6 +60,12 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        
+        if (SceneManager.GetActiveScene().name == "Layer 4")
+            playerLight.enabled = true;
+        else
+            playerLight.enabled = false;
+        
         if (isDead) return;
         float moveInput = Input.GetAxis("Horizontal");
         if (!isAttacking && !isBlocking)
@@ -176,6 +185,9 @@ public class Player : MonoBehaviour
             yield return null;
         float deathLength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(deathLength);
+
+        Instance = null;
+        Destroy(gameObject);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
