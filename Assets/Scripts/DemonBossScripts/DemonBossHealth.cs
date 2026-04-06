@@ -6,12 +6,16 @@ public class DemonBossHealth : EnemyHealth
     private Animator animator;
     private int damageCounter = 0;
     public bool isAlive = true;
-    DemonBossAI demonBossAI;
+
+    private DemonBossAI demonBossAI;
+    private EndScreen endScreen;
 
     protected override void Start()
     {
         animator = GetComponent<Animator>(); 
         demonBossAI = GetComponent<DemonBossAI>();
+        endScreen = FindObjectOfType<EndScreen>(true);
+        
         base.Start();
     }
 
@@ -43,5 +47,6 @@ public class DemonBossHealth : EnemyHealth
     {
         yield return new WaitForSeconds(3.8f);
         base.Die();
+        endScreen.GameEnd();
     }
 }

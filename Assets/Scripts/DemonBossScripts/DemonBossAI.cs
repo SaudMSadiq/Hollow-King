@@ -83,10 +83,13 @@ public class DemonBossAI : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
 
-        PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
-        if (playerHealth != null && Vector2.Distance(transform.position, player.position) <= attackRange)
+        if (demonBossHealth.isAlive)
         {
-            playerHealth.TakeDamage(attackDamage);
+            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+            if (playerHealth != null && Vector2.Distance(transform.position, player.position) <= attackRange)
+            {
+                playerHealth.TakeDamage(attackDamage);
+            }
         }
     }
 
