@@ -61,6 +61,9 @@ public class EnemyHealth : MonoBehaviour
 
         if (healthBar != null)
             healthBar.gameObject.SetActive(false);
+        
+        BoxCollider2D box = GetComponent<BoxCollider2D>();
+        box.enabled = false;
 
         if (animator != null)
         {
