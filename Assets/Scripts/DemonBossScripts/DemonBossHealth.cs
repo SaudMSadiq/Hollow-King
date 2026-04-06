@@ -6,10 +6,12 @@ public class DemonBossHealth : EnemyHealth
     private Animator animator;
     private int damageCounter = 0;
     public bool isAlive = true;
+    DemonBossAI demonBossAI;
 
     protected override void Start()
     {
         animator = GetComponent<Animator>(); 
+        demonBossAI = GetComponent<DemonBossAI>();
         base.Start();
     }
 
@@ -26,14 +28,20 @@ public class DemonBossHealth : EnemyHealth
 
     protected override void Die()
     {
+        gameObject.layer = LayerMask.NameToLayer("Default"); // Change layer to Default to prevent further interactions
+        demonBossAI.attackDamage = 0; // Boss can no longer deal damage
+
+        // Play death animation and disable boss interactions 
         isAlive = false;
         animator.SetTrigger("Death");
+
+        // Start a coroutine to delay the actual destruction of the boss until after the death animation has played
         StartCoroutine(DieWithDelay());
     }
 
     private IEnumerator DieWithDelay()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(3.8f);
         base.Die();
     }
 }

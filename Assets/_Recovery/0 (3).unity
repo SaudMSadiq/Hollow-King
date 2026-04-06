@@ -169,7 +169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6410775461175316352, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 9.0362
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6410775461175316352, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -205,7 +205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6410775461175316352, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.6478
+      value: 0.643
       objectReference: {fileID: 0}
     - target: {fileID: 6410775461175316352, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -231,18 +231,6 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.8050314
       objectReference: {fileID: 0}
-    - target: {fileID: 6530762343757247486, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
-      propertyPath: m_Type
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6530762343757247486, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 33dccf83b7f7f294992c97ebe1990464, type: 3}
-    - target: {fileID: 6530762343757247486, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
-      propertyPath: m_FillMethod
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8488941752459788156, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
       propertyPath: m_Layer
       value: 5
@@ -250,10 +238,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5510002262188541922, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2142029595}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
 --- !u!1 &509370627
 GameObject:
@@ -389,7 +374,7 @@ MonoBehaviour:
   moveSpeed: 1.5
   chaseRange: 8
   attackRange: 3
-  attackDamage: 3
+  attackDamage: 1
   attackCooldown: 2
 --- !u!50 &509370639
 Rigidbody2D:
@@ -476,8 +461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1955fc6f7fbd741a38b69ecd13f78c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DemonBossHealth
-  maxHealth: 100
-  health: 100
+  maxHealth: 1
+  health: 1
   healthBar: {fileID: 1166936006}
   isAlive: 1
 --- !u!1001 &745302597
@@ -878,7 +863,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8965356092289497849, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
   m_PrefabInstance: {fileID: 75066970}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142029591}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9affe7bb25485485d8cd21d574bad684, type: 3}
@@ -943,11 +928,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3126096336089120511, guid: 7b6fc7120c4d9854cb33026f60c459e7, type: 3}
       propertyPath: health
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3126096336089120511, guid: 7b6fc7120c4d9854cb33026f60c459e7, type: 3}
       propertyPath: maxHealth
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8384412572121282229, guid: 7b6fc7120c4d9854cb33026f60c459e7, type: 3}
       propertyPath: attackRange
@@ -1300,29 +1285,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!1 &2142029591 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5510002262188541922, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
-  m_PrefabInstance: {fileID: 75066970}
-  m_PrefabAsset: {fileID: 0}
---- !u!1818360610 &2142029595
-ScaleConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142029591}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Weight: 1
-  m_ScaleAtRest: {x: 0.0098318765, y: 0.01, z: 0.01}
-  m_ScaleOffset: {x: 1, y: 1, z: 1}
-  m_AffectScalingX: 1
-  m_AffectScalingY: 1
-  m_AffectScalingZ: 1
-  m_Active: 1
-  m_IsLocked: 0
-  m_Sources: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
