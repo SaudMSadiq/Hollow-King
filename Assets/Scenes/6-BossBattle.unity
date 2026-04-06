@@ -255,6 +255,53 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2142029595}
   m_SourcePrefab: {fileID: 100100000, guid: afd446f0f5b746442995a4460ec991c2, type: 3}
+--- !u!1 &416526502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416526504}
+  - component: {fileID: 416526503}
+  m_Layer: 0
+  m_Name: EndScreenManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &416526503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416526502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d78a4a5fe899e44a16ffa355b6c9fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EndScreenManager
+  endScreen: {fileID: 1291133762}
+  fadeDuration: 2
+--- !u!4 &416526504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416526502}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.89503, y: 5.60173, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1291133763}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &509370627
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,9 +435,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DemonBossAI
   moveSpeed: 1.5
   chaseRange: 10
-  attackRange: 3
+  attackRange: 3.5
   attackDamage: 3
-  attackCooldown: 2
+  attackCooldown: 3
 --- !u!50 &509370639
 Rigidbody2D:
   serializedVersion: 5
@@ -1111,7 +1158,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1291133763}
-  - component: {fileID: 1291133764}
   m_Layer: 0
   m_Name: EndScreen
   m_TagString: EndScreen
@@ -1127,28 +1173,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291133762}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.02792, y: -0.15932, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.9229536, y: -5.761047, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1097872865}
   - {fileID: 1818012212}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 416526504}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1291133764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291133762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06d36d169376ebe4c90c67ac7520e58c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EndScreen
-  endScreenUI: {fileID: 1291133762}
 --- !u!1 &1665695335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1953,4 +1986,4 @@ SceneRoots:
   - {fileID: 1994497381}
   - {fileID: 1904944682}
   - {fileID: 1768092053}
-  - {fileID: 1291133763}
+  - {fileID: 416526504}

@@ -7,7 +7,7 @@ public class DemonBossAI : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed = 1f;
     public float chaseRange = 6f;
-    public float attackRange = 2f;
+    public float attackRange = 3f;
 
     [Header("Attack")]
     public int attackDamage = 2;
@@ -73,7 +73,7 @@ public class DemonBossAI : MonoBehaviour
         {
             animator.SetTrigger("Attack");
 
-            StartCoroutine(ApplyDamageWithDelay(1.2f));
+            StartCoroutine(ApplyDamageWithDelay(1.3f));
 
             nextAttackTime = Time.time + attackCooldown;
         }
@@ -86,9 +86,10 @@ public class DemonBossAI : MonoBehaviour
         if (demonBossHealth.isAlive)
         {
             PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+            //only apply damage if player is still in range
             if (playerHealth != null && Vector2.Distance(transform.position, player.position) <= attackRange)
             {
-                playerHealth.TakeDamage(attackDamage);
+                playerHealth.TakeDamage(attackDamage); 
             }
         }
     }

@@ -1,31 +1,38 @@
 using UnityEngine;
 using System.Collections;
+using NUnit.Framework;
 
 public class DemonBossHealth : EnemyHealth
 {
     private Animator animator;
     private int damageCounter = 0;
     public bool isAlive = true;
+    //public bool isHurt = false;
 
     private DemonBossAI demonBossAI;
-    private EndScreen endScreen;
+    private EndScreenManager endScreenManager;
 
     protected override void Start()
     {
         animator = GetComponent<Animator>(); 
         demonBossAI = GetComponent<DemonBossAI>();
-        endScreen = FindObjectOfType<EndScreen>(true);
+        endScreenManager = FindObjectOfType<EndScreenManager>(true);
         
         base.Start();
     }
 
     public override void TakeDamage(int damage)
     {   
-        if (damageCounter == 7)
+        /**if (damageCounter == 3)
         {
             animator.SetTrigger("Hurt");
             damageCounter = 0;
-        }
+
+            //boss cant do anything when hurt
+            isHurt = true;
+            StartCoroutine(HurtTrigger());
+            isHurt = false;
+        }**/
         base.TakeDamage(damage);
         damageCounter++;
     }
@@ -47,6 +54,6 @@ public class DemonBossHealth : EnemyHealth
     {
         yield return new WaitForSeconds(3.8f);
         base.Die();
-        endScreen.GameEnd();
+        endScreenManager.GameEnd();
     }
 }
