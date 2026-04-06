@@ -9,6 +9,7 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
+        Debug.Log("LoadNextLevel called");
         StartCoroutine(LoadLevelRoutine());
     }
 
@@ -16,11 +17,17 @@ public class LevelLoader : MonoBehaviour
     {
         if (loadingCanvas != null)
         {
+            Debug.Log("Showing loading canvas");
             loadingCanvas.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("Loading canvas is NULL");
         }
 
         yield return new WaitForSeconds(2f);
 
+        Debug.Log("Loading scene: " + nextSceneName);
         SceneManager.LoadScene(nextSceneName);
     }
 }
