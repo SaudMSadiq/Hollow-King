@@ -16,7 +16,6 @@ public class DemonBossHP : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        Debug.Log("Efucking help me");
         animator.SetTrigger("Hurt");
         health -= damage;
 

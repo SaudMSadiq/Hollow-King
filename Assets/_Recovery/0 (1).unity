@@ -461,8 +461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1955fc6f7fbd741a38b69ecd13f78c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DemonBossHealth
-  maxHealth: 1
-  health: 1
+  maxHealth: 30
+  health: 30
   healthBar: {fileID: 1166936006}
   isAlive: 1
 --- !u!1001 &745302597

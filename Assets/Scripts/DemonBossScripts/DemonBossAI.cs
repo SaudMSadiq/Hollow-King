@@ -16,10 +16,12 @@ public class DemonBossAI : MonoBehaviour
     private Transform player;
     private Animator animator;
     private float nextAttackTime;
+    private DemonBossHealth demonBossHealth;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        demonBossHealth = GetComponent<DemonBossHealth>();
 
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
@@ -31,8 +33,10 @@ public class DemonBossAI : MonoBehaviour
 
     void Update()
     {
-
-        if (player == null) return;
+        if (!demonBossHealth.isAlive)
+        {
+            return;
+        }   
 
         float distance = Vector2.Distance(transform.position, player.position);
         FacePlayer();
