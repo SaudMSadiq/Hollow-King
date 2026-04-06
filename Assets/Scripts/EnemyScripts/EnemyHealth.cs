@@ -7,12 +7,12 @@ public class EnemyHealth : MonoBehaviour
 
     public HealthBar healthBar;
 
-    protected virtual void Start()
+    void Start()
     {
         healthBar.UpdateHealth(health, maxHealth);
     }
 
-    public virtual void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         health -= damage;
 
@@ -26,7 +26,7 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    protected virtual void Die()
+    void Die()
     {
         Destroy(gameObject);
     }

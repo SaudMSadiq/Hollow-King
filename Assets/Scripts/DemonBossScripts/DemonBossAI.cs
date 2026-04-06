@@ -1,22 +1,21 @@
 using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(Animator))]
 public class DemonBossAI : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed = 1f;
-    public float chaseRange = 2f;
+    public float chaseRange = 6f;
     public float attackRange = 2f;
 
     [Header("Attack")]
-    public int attackDamage = 1;
+    public int attackDamage = 2;
     public float attackCooldown = 2f;
 
     private Transform player;
     private Animator animator;
     private float nextAttackTime;
-
-    private bool isDead = false;
 
     void Start()
     {
@@ -27,60 +26,63 @@ public class DemonBossAI : MonoBehaviour
         {
             player = playerObj.transform;
         }
+        animator.SetBool("Walking", false);
     }
 
     void Update()
     {
-        if (isDead || player == null) return;
+
+        if (player == null) return;
 
         float distance = Vector2.Distance(transform.position, player.position);
+        FacePlayer();
 
         if (distance <= attackRange)
         {
+            // Stop moving, play idle, then attack
+            animator.SetBool("Walking", false);
             Attack();
         }
         else if (distance <= chaseRange)
         {
+            // Only chase — Walking bool stays true for the whole frame
+            animator.SetBool("Walking", true);
             ChasePlayer();
         }
         else
         {
-            Idle();
+            // Out of range — idle
+            animator.SetBool("Walking", false);
         }
-    }
-
-    void Idle()
-    {
-        //animator.SetTrigger("BossIdle");
     }
 
     void ChasePlayer()
     {
-        //animator.SetTrigger("BossWalk");
-
         float directionX = player.position.x - transform.position.x;
-
-        // Move only on X axis
         Vector3 movement = new Vector3(Mathf.Sign(directionX), 0f, 0f);
         transform.position += movement * moveSpeed * Time.deltaTime;
-
-        FacePlayer();
     }
+
     void Attack()
-    {
-        FacePlayer();
- 
+    { 
         if (Time.time >= nextAttackTime)
         {
-            //animator.SetTrigger("BossAttack");
- 
-            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                playerHealth.TakeDamage(attackDamage);
-            }
- 
+            animator.SetTrigger("Attack");
+
+            StartCoroutine(ApplyDamageWithDelay(1.2f));
+
             nextAttackTime = Time.time + attackCooldown;
+        }
+    }
+
+    IEnumerator ApplyDamageWithDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+        if (playerHealth != null && Vector2.Distance(transform.position, player.position) <= attackRange)
+        {
+            playerHealth.TakeDamage(attackDamage);
         }
     }
 

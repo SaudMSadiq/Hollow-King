@@ -1,33 +1,38 @@
 using UnityEngine;
 
-public class DemonBossHP : EnemyHealth
+public class DemonBossHP : MonoBehaviour
 {
+    public int maxHealth = 5;
+    public int health = 5;
+
+    public HealthBar healthBar;
     private Animator animator;
 
-    protected override void Start()
+     void Start()
     {
-        base.Start();
-        animator = GetComponent<Animator>();
+       animator = GetComponent<Animator>(); 
+       healthBar.UpdateHealth(health, maxHealth); 
     }
 
-    public override void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
-        Debug.Log("please work");
-        base.TakeDamage(damage);
- 
-        Debug.Log("Boss health: " + health);
- 
-        //animator.SetTrigger("BossHurt");
- 
+        Debug.Log("Efucking help me");
+        animator.SetTrigger("Hurt");
+        health -= damage;
+
+        healthBar.UpdateHealth(health, maxHealth);
+
+        Debug.Log("Enemy health: " + health);
+
         if (health <= 0)
         {
             Die();
         }
     }
 
-    protected override void Die()
+    void Die()
     {
-        //animator.SetBool("BossDeath", true);
-        base.Die();
+        //animator.SetTrigger("Death");
+        Destroy(gameObject);
     }
 }
