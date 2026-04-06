@@ -180,6 +180,7 @@ public class Player : MonoBehaviour
         StartCoroutine(ReloadAfterDeath());
     }
     public IEnumerator ReloadAfterDeath()
+<<<<<<< Updated upstream
     {
         while (!animator.GetCurrentAnimatorStateInfo(0).IsName("Death"))
             yield return null;
@@ -190,4 +191,16 @@ public class Player : MonoBehaviour
         Destroy(gameObject);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+=======
+{
+    while (!animator.GetCurrentAnimatorStateInfo(0).IsName("Death"))
+        yield return null;
+    float deathLength = animator.GetCurrentAnimatorStateInfo(0).length;
+    yield return new WaitForSeconds(deathLength);
+
+    Instance = null;       
+    Destroy(gameObject);   
+    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+}
+>>>>>>> Stashed changes
 }
