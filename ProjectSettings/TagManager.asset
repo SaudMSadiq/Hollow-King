@@ -46,17 +46,8 @@ TagManager:
   - name: Healthbar
     uniqueID: 3532579149
     locked: 0
-  - name: background
-    uniqueID: 527928569
-    locked: 0
-  - name: ground
-    uniqueID: 1869352729
-    locked: 0
-  - name: player
-    uniqueID: 3221232757
-    locked: 0
-  - name: effects
-    uniqueID: 3221829343
+  - name: Background
+    uniqueID: 1034169775
     locked: 0
   m_RenderingLayers:
   - Default
