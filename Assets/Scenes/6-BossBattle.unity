@@ -1204,7 +1204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 716878715595428, guid: 7f23fc7aa5d3d5a458b58d314c2f1d48, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 49.708
+      value: 441
       objectReference: {fileID: 0}
     - target: {fileID: 341611943673533774, guid: 7f23fc7aa5d3d5a458b58d314c2f1d48, type: 3}
       propertyPath: m_fontSize
@@ -1395,16 +1395,24 @@ PrefabInstance:
       value: -28
       objectReference: {fileID: 0}
     - target: {fileID: 6809853761829507348, guid: 7f23fc7aa5d3d5a458b58d314c2f1d48, type: 3}
+      propertyPath: m_Color.a
+      value: 0.85882354
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809853761829507348, guid: 7f23fc7aa5d3d5a458b58d314c2f1d48, type: 3}
       propertyPath: m_Color.b
-      value: 0.21960786
+      value: 0.11310857
       objectReference: {fileID: 0}
     - target: {fileID: 6809853761829507348, guid: 7f23fc7aa5d3d5a458b58d314c2f1d48, type: 3}
       propertyPath: m_Color.g
-      value: 0.21960786
+      value: 0.11310857
       objectReference: {fileID: 0}
     - target: {fileID: 6809853761829507348, guid: 7f23fc7aa5d3d5a458b58d314c2f1d48, type: 3}
       propertyPath: m_Color.r
-      value: 0.21960786
+      value: 0.11949676
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809853761829507348, guid: 7f23fc7aa5d3d5a458b58d314c2f1d48, type: 3}
+      propertyPath: m_Maskable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1830,10 +1838,11 @@ MonoBehaviour:
   npcName: SATAN
   npcPortrait: {fileID: 21300000, guid: 408fc4f6715715640bb3e2f722218a9c, type: 3}
   dialogueLines:
+  - HOW DARE YOU ENTER MY DOMAIN
   - AAAAAUUUUUGGGGGHHHHH!!!!!
   - I'M GONNA KILL YOU!!!!!
-  typingSpeed: 0.03
-  delayBetweenLines: 0.7
+  typingSpeed: 0.04
+  delayBetweenLines: 1
 --- !u!1 &1768092050
 GameObject:
   m_ObjectHideFlags: 0
