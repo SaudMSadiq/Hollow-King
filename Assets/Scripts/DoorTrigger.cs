@@ -28,7 +28,6 @@ public class DoorTrigger : MonoBehaviour
     {
         isEntering = true;
 
-        // Optional: disable player movement script while entering
         MonoBehaviour[] scripts = player.GetComponents<MonoBehaviour>();
         foreach (MonoBehaviour script in scripts)
         {

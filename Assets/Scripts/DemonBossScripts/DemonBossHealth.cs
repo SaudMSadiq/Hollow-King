@@ -11,7 +11,7 @@ public class DemonBossHealth : EnemyHealth
     private DemonBossAI demonBossAI;
     private EndScreenManager endScreenManager;
 
-    protected override void Start()
+    public override void Start()
     {
         animator = GetComponent<Animator>(); 
         demonBossAI = GetComponent<DemonBossAI>();
@@ -36,7 +36,7 @@ public class DemonBossHealth : EnemyHealth
         damageCounter++;
     }
 
-    protected override void Die()
+    public override void Die()
     {
         gameObject.layer = LayerMask.NameToLayer("Default"); // Change layer to Default to prevent further interactions
         demonBossAI.attackDamage = 0; // Boss can no longer deal damage

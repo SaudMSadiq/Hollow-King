@@ -18,14 +18,14 @@ public class EnemyHealth : MonoBehaviour
     private Animator animator;
     private bool isDead = false;
 
-    void Start()
+    public virtual void Start()
     {
         animator = GetComponent<Animator>();
         if (healthBar != null)
             healthBar.UpdateHealth(health, maxHealth);
     }
 
-    public void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage)
     {
         if (isDead) return;
         health -= damage;
@@ -36,7 +36,7 @@ public class EnemyHealth : MonoBehaviour
             Die();
     }
 
-    void Die()
+    public virtual void Die()
     {
         GiveGroundPound reward = GetComponentInChildren<GiveGroundPound>();
 
