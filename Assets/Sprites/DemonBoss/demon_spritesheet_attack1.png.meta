@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 9b9660ef986483944b5c6e59bca17453
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6193517464925009211
+    second: demon_spritesheet_attack1_0
+  - first:
+      213: -4803082771579874312
+    second: demon_spritesheet_attack1_1
+  - first:
+      213: -5068242648397000702
+    second: demon_spritesheet_attack1_2
+  - first:
+      213: -4400606263973115219
+    second: demon_spritesheet_attack1_3
+  - first:
+      213: -1997819922610092751
+    second: demon_spritesheet_attack1_4
+  - first:
+      213: 2255006068486262092
+    second: demon_spritesheet_attack1_5
+  - first:
+      213: 7930159869240821855
+    second: demon_spritesheet_attack1_6
+  - first:
+      213: -683389710359150287
+    second: demon_spritesheet_attack1_7
+  - first:
+      213: -981654261969816399
+    second: demon_spritesheet_attack1_8
+  - first:
+      213: -458810445390697200
+    second: demon_spritesheet_attack1_9
+  - first:
+      213: 8500726071809923231
+    second: demon_spritesheet_attack1_10
+  - first:
+      213: 4237302917189075743
+    second: demon_spritesheet_attack1_11
+  - first:
+      213: 2444131071657377435
+    second: demon_spritesheet_attack1_12
+  - first:
+      213: -7823581112357138401
+    second: demon_spritesheet_attack1_13
+  - first:
+      213: 5983290463908110768
+    second: demon_spritesheet_attack1_14
+  - first:
+      213: -7413001405016159132
+    second: demon_spritesheet_attack1_15
+  - first:
+      213: -3288417947405936529
+    second: demon_spritesheet_attack1_16
+  - first:
+      213: -2611430549779978325
+    second: demon_spritesheet_attack1_17
+  - first:
+      213: -3213611401513301132
+    second: demon_spritesheet_attack1_18
+  - first:
+      213: -1501829353719503675
+    second: demon_spritesheet_attack1_19
+  - first:
+      213: -8227405351498784145
+    second: demon_spritesheet_attack1_20
+  - first:
+      213: -4717407404887155747
+    second: demon_spritesheet_attack1_21
+  - first:
+      213: 4727690152199181071
+    second: demon_spritesheet_attack1_22
+  - first:
+      213: 8675466413513069841
+    second: demon_spritesheet_attack1_23
+  - first:
+      213: 8393154439832180563
+    second: demon_spritesheet_attack1_24
+  - first:
+      213: 6739486461626694108
+    second: demon_spritesheet_attack1_25
+  - first:
+      213: 7256276011497457384
+    second: demon_spritesheet_attack1_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: demon_spritesheet_attack1_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 30
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b357807d15bc3f550800000000000000
+      internalID: 6193517464925009211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_attack1_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 30
+        width: 77
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3de25caa5085db0800000000000000
+      internalID: -4803082771579874312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_attack1_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 29
+        width: 93
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200dfcaf92cf9a9b0800000000000000
+      internalID: -5068242648397000702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_attack1_3
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 29
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa06871be7ede2c0800000000000000
+      internalID: -4400606263973115219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_attack1_4
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 30
+        width: 90
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13580a38d515644e0800000000000000
+      internalID: -1997819922610092751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_attack1_5
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 30
+        width: 89
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d497e52146b4f10800000000000000
+      internalID: 2255006068486262092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_attack1_6
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 29
+        width: 87
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f584822a2669d0e60800000000000000
+      internalID: 7930159869240821855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_attack1_7
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 29
+        width: 86
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131c2eeddac1486f0800000000000000
+      internalID: -683389710359150287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6d05b78f602925045a6319123ed124c7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":268.0,"y":162.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      demon_spritesheet_attack1_0: 6193517464925009211
+      demon_spritesheet_attack1_1: -4803082771579874312
+      demon_spritesheet_attack1_2: -5068242648397000702
+      demon_spritesheet_attack1_3: -4400606263973115219
+      demon_spritesheet_attack1_4: -1997819922610092751
+      demon_spritesheet_attack1_5: 2255006068486262092
+      demon_spritesheet_attack1_6: 7930159869240821855
+      demon_spritesheet_attack1_7: -683389710359150287
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
