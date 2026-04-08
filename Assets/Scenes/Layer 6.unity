@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DemonBossAI
   moveSpeed: 1.5
-  chaseRange: 10
+  chaseRange: 12
   attackRange: 3.5
   attackDamage: 5
   attackCooldown: 3
