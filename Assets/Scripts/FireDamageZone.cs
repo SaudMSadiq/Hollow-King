@@ -25,7 +25,7 @@ public class FireDamageZone : MonoBehaviour
 
                 if (health.health <= 0)
                 {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                    other.GetComponent<Player>().Die();
                 }
             }
 

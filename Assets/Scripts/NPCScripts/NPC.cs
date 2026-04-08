@@ -11,12 +11,17 @@ public class NPC : MonoBehaviour, IInteractable
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
-    public Player player;
+    private Player player;
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
     private float savedMoveSpeed;
 
+    private void Start()
+    {
+        player = Player.Instance;
+    }
+    
     public bool CanInteract()
     {
         return !isDialogueActive;

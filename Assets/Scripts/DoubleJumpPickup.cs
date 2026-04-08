@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class DoubleJumpPickup : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
@@ -13,5 +12,5 @@ public class DoubleJumpPickup : MonoBehaviour
         }
 
         Destroy(gameObject);
-    }
+    }   
 }

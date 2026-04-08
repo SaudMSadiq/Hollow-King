@@ -6,15 +6,21 @@ public class ShopUI : MonoBehaviour
     public GameObject shopPanel;
     public TextMeshProUGUI goldText;
 
-    public Player player;
-    public Inventory inventory;
+    private Player player;
+    private Inventory inventory;
 
-    public PlayerAttack playerAttack;
-    public PlayerHealth playerHealth;
+    private PlayerAttack playerAttack;
+    private PlayerHealth playerHealth;
 
     private void Start()
     {
         CloseShop();
+        player = Player.Instance;
+
+        playerAttack = player.GetComponent<PlayerAttack>();
+        playerHealth = player.GetComponent<PlayerHealth>();
+        inventory = player.GetComponent<Inventory>();
+
     }
 
     public void ToggleShop()
@@ -72,7 +78,7 @@ public class ShopUI : MonoBehaviour
     
     public void BuyDamage()
     {
-        BuyItem("Damage", 25);
+        BuyItem("Damage", 50);
         playerAttack.attackDamage++;
     }
 

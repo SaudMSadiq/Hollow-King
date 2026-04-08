@@ -7,7 +7,6 @@ public class PlayerDoubleJump : MonoBehaviour
     private Animator animator;
 
     public bool hasDoubleJump = false;
-    public GameObject shoeVisual;
 
     private int jumpsUsed = 0;
     private bool wasGrounded = false;
@@ -17,9 +16,7 @@ public class PlayerDoubleJump : MonoBehaviour
         player = GetComponent<Player>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-
-        if (shoeVisual != null)
-            shoeVisual.SetActive(hasDoubleJump);
+        
     }
 
     void Update()
@@ -52,8 +49,5 @@ public class PlayerDoubleJump : MonoBehaviour
     public void UnlockDoubleJump()
     {
         hasDoubleJump = true;
-
-        if (shoeVisual != null)
-            shoeVisual.SetActive(true);
     }
 }

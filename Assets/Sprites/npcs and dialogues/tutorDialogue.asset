@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0853bb9d79f50fa4cbae658655c47c25, type: 3}
+  m_Name: tutorDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: Tutor
+  npcPortrait: {fileID: 3739671707382384996, guid: 9af9f1d88c4d7294cabcd8c1962e9ba3, type: 3}
+  dialogueLines:
+  - Greetings young traveller.
+  - Welcome to our humble village.
+  - Use A,D, and W to move around.
+  - You can attack with left click, block with right click, and roll with shift.
+  - We need your help to save the village, the devil is releasing creatures from
+    hell to wreak havoc!
+  - Please use the captured ones to practice your skills.
+  autoProgressLines: 
+  autoProgressDelay: 2
+  typingSpeed: 0.02

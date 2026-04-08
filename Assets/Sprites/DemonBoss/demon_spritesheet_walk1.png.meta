@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 3759c95c4f7ca16449a2da65c91956d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2394476241694431690
+    second: demon_spritesheet_walk1_0
+  - first:
+      213: 621591549858123807
+    second: demon_spritesheet_walk1_1
+  - first:
+      213: 1391247752217345386
+    second: demon_spritesheet_walk1_2
+  - first:
+      213: -7639800892788624477
+    second: demon_spritesheet_walk1_3
+  - first:
+      213: 1136172187727230969
+    second: demon_spritesheet_walk1_4
+  - first:
+      213: -7793166601832764856
+    second: demon_spritesheet_walk1_5
+  - first:
+      213: 5272536501583871831
+    second: demon_spritesheet_walk1_6
+  - first:
+      213: 6998362838304757816
+    second: demon_spritesheet_walk1_7
+  - first:
+      213: 8525894254965836641
+    second: demon_spritesheet_walk1_8
+  - first:
+      213: 4466710504441457800
+    second: demon_spritesheet_walk1_9
+  - first:
+      213: -2044161366498929678
+    second: demon_spritesheet_walk1_10
+  - first:
+      213: 6980611987436968685
+    second: demon_spritesheet_walk1_11
+  - first:
+      213: -1913276541142448013
+    second: demon_spritesheet_walk1_12
+  - first:
+      213: 6012029763344823018
+    second: demon_spritesheet_walk1_13
+  - first:
+      213: -4318119869659188377
+    second: demon_spritesheet_walk1_14
+  - first:
+      213: 6333715096287717326
+    second: demon_spritesheet_walk1_15
+  - first:
+      213: 2002166454239711294
+    second: demon_spritesheet_walk1_16
+  - first:
+      213: 3090990218021482949
+    second: demon_spritesheet_walk1_17
+  - first:
+      213: -1601048989113286093
+    second: demon_spritesheet_walk1_18
+  - first:
+      213: 4682376112341743037
+    second: demon_spritesheet_walk1_19
+  - first:
+      213: -7744426187902133858
+    second: demon_spritesheet_walk1_20
+  - first:
+      213: -1153982547586044086
+    second: demon_spritesheet_walk1_21
+  - first:
+      213: 4123286463252313273
+    second: demon_spritesheet_walk1_22
+  - first:
+      213: 8566187914943383398
+    second: demon_spritesheet_walk1_23
+  - first:
+      213: -5797669608539290101
+    second: demon_spritesheet_walk1_24
+  - first:
+      213: 8395093200835485840
+    second: demon_spritesheet_walk1_25
+  - first:
+      213: 2525961068974478340
+    second: demon_spritesheet_walk1_26
+  - first:
+      213: 3320427352190869884
+    second: demon_spritesheet_walk1_27
+  - first:
+      213: -5712757054584677186
+    second: demon_spritesheet_walk1_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: demon_spritesheet_walk_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636e0be6b8c15ced0800000000000000
+      internalID: -2394476241694431690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_walk_5
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 10
+        width: 79
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1b06df93765ea20800000000000000
+      internalID: 3090990218021482949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_walk_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 10
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f222eacfa3cffe0800000000000000
+      internalID: -1153982547586044086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_walk_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 10
+        width: 67
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667c175e58631e670800000000000000
+      internalID: 8566187914943383398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_walk_3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 10
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090a81c79cc518470800000000000000
+      internalID: 8395093200835485840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon_spritesheet_walk_4
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 10
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71e3dd9517841e20800000000000000
+      internalID: 3320427352190869884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2b7cbd3f9c507ca498f09a32ca35e672
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      demon_spritesheet_walk1_10: -2044161366498929678
+      demon_spritesheet_walk1_11: 6980611987436968685
+      demon_spritesheet_walk1_12: -1913276541142448013
+      demon_spritesheet_walk1_13: 6012029763344823018
+      demon_spritesheet_walk1_14: -4318119869659188377
+      demon_spritesheet_walk1_15: 6333715096287717326
+      demon_spritesheet_walk1_16: 2002166454239711294
+      demon_spritesheet_walk1_18: -1601048989113286093
+      demon_spritesheet_walk1_19: 4682376112341743037
+      demon_spritesheet_walk1_20: -7744426187902133858
+      demon_spritesheet_walk1_22: 4123286463252313273
+      demon_spritesheet_walk1_24: -5797669608539290101
+      demon_spritesheet_walk1_26: 2525961068974478340
+      demon_spritesheet_walk1_28: -5712757054584677186
+      demon_spritesheet_walk1_3: -7639800892788624477
+      demon_spritesheet_walk1_4: 1136172187727230969
+      demon_spritesheet_walk1_5: -7793166601832764856
+      demon_spritesheet_walk1_6: 5272536501583871831
+      demon_spritesheet_walk1_7: 6998362838304757816
+      demon_spritesheet_walk1_8: 8525894254965836641
+      demon_spritesheet_walk1_9: 4466710504441457800
+      demon_spritesheet_walk_0: -2394476241694431690
+      demon_spritesheet_walk_1: -1153982547586044086
+      demon_spritesheet_walk_2: 8566187914943383398
+      demon_spritesheet_walk_23: 8566187914943383398
+      demon_spritesheet_walk_3: 8395093200835485840
+      demon_spritesheet_walk_4: 3320427352190869884
+      demon_spritesheet_walk_5: 3090990218021482949
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,8 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3e99721-21be-4f5a-ad5b-7fcb33bb3759" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DoubleJumpPickup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DoubleJumpPickup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FireActivator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FireActivator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FireDamageZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FireDamageZone.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerDoubleJump.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerDoubleJump.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hollow-King/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hollow-King/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/ShopUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shop/ShopUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background/2303.w015.n003.1216A.p30.1216 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background/2303.w015.n003.1216A.p30.1216 2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background/2303.w015.n003.1216A.p30.1216.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background/2303.w015.n003.1216A.p30.1216.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background/2305.w030.n003.675B.p15.675 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background/2305.w030.n003.675B.p15.675 2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background/2305.w030.n003.675B.p15.675.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background/2305.w030.n003.675B.p15.675.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Layer 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Layer 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Layer 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Layer 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/level 2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Team Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Team Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +53,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/ShopExample.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonProbe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoubleJumpPickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FireActivator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FireDamageZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IgnoreParentScale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractionDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerDoubleJump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shop/ShopNPC.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -41,6 +70,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="3B5dtfYezUDZCYTQNArJtcIPlfu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,7 +95,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="E:\UnityInstalls\6000.3.7f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -73,7 +105,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="E:\UnityInstalls\6000.3.7f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\robbi\OneDrive\Documents\GitHub\Hollow-King" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -111,6 +143,13 @@
       <workItem from="1773977045520" duration="1407000" />
       <workItem from="1774033951405" duration="2300000" />
       <workItem from="1774225738478" duration="5525000" />
+      <workItem from="1774500429057" duration="710000" />
+      <workItem from="1774502216638" duration="1244000" />
+      <workItem from="1775333476439" duration="5687000" />
+      <workItem from="1775411850847" duration="2790000" />
+      <workItem from="1775438461060" duration="3217000" />
+      <workItem from="1775499573730" duration="1299000" />
+      <workItem from="1775676399340" duration="2327000" />
     </task>
     <servers />
   </component>

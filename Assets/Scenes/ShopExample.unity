@@ -605,7 +605,23 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  rb: {fileID: 0}
+  isGrounded: 0
+  animator: {fileID: 0}
+  attackCombo: 0
+  attackTimer: 2
+  attackCooldown: 0.5
+  isAttacking: 0
+  isBlocking: 0
+  isHurt: 0
+  isDead: 0
   gold: 0
+  maxJumps: 1
+  groundPoundUnlocked: 0
+  groundPoundSpeed: -20
+  poundPoint: {fileID: 0}
+  poundRadius: 1.5
+  playerLight: {fileID: 0}
 --- !u!61 &1309886280
 BoxCollider2D:
   m_ObjectHideFlags: 0
