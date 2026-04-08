@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 1199987579616153194}
   - component: {fileID: 8416492014758856963}
   - component: {fileID: 7465990804097293651}
+  - component: {fileID: 5433852487231569608}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -371,7 +372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   moveSpeed: 6.5
-  jumpForce: 16
+  jumpForce: 12
   groundCheck: {fileID: 2976670775789922541}
   groundCheckRadius: 0.2
   groundLayer:
@@ -458,8 +459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 521181ff4833148f99dad404e2821272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 15
-  health: 15
+  maxHealth: 25
+  health: 25
   healthBar: {fileID: 8110677572526358459}
 --- !u!114 &1199987579616153194
 MonoBehaviour:
@@ -538,6 +539,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7f682c64d7d7488d9f5318a909931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!114 &5433852487231569608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5845413707396821902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4379242e1b214bf688c4c8866f1ef6d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDoubleJump
+  hasDoubleJump: 0
 --- !u!1001 &929357367846733122
 PrefabInstance:
   m_ObjectHideFlags: 0

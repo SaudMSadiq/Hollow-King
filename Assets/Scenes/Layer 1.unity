@@ -3714,7 +3714,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.1634826, y: 0.765625}
+  m_Offset: {x: 0.16348267, y: 3.831868}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -3724,7 +3724,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.555243, y: 1.53125}
+  m_Size: {x: 2.555243, y: 7.663736}
   m_EdgeRadius: 0
 --- !u!4 &660120870 stripped
 Transform:
@@ -17662,7 +17662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1814fbd97c45574ebb150d7df7eefd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScenePortal
-  sceneToLoad: Layer 3
+  sceneToLoad: Layer 2
 --- !u!1001 &1992723585
 PrefabInstance:
   m_ObjectHideFlags: 0

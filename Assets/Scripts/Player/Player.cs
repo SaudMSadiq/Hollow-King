@@ -188,6 +188,6 @@ public class Player : MonoBehaviour
 
         Instance = null;
         Destroy(gameObject);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(0);
     }
 }
