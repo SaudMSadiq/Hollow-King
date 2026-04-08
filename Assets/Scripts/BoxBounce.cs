@@ -8,7 +8,7 @@ public class BoxBounce : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Box") || other.gameObject.CompareTag("Box2"))
+        if (other.gameObject.CompareTag("Box"))
         {
             float direction = transform.position.x < other.transform.position.x ? -1f : 1f;
             StartCoroutine(MoveAway(direction));

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4a0d3b381682f2048a628ed9fb8c30e6
+guid: 9340b26aa3f73ab479a3c1bb27f70ec6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4541880079160086973
-    second: ttunb4jgj4h51_0
+      213: -9002637509033020761
+    second: spades-99-lava_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ttunb4jgj4h51_0
+      name: spades-99-lava_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 854
-        height: 480
+        width: 1500
+        height: 1500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db192ca3edff70f30800000000000000
-      internalID: 4541880079160086973
+      spriteID: 7a2ba7032e4301380800000000000000
+      internalID: -9002637509033020761
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ttunb4jgj4h51_0: 4541880079160086973
+      spades-99-lava_0: -9002637509033020761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

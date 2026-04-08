@@ -3,10 +3,9 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    public int startY;
+    public double startY;
     private bool isOpen = false;
     private float moveSpeed = 1f;
-    private double targetY;
 
 
     public bool IsOpen
@@ -31,7 +30,7 @@ public class Door : MonoBehaviour
 
     private void Update()
 {
-    if (isOpen && transform.position.y < 10)
+    if (isOpen && transform.position.y < startY + 10)
     {
         transform.position = new Vector3(
             transform.position.x,
@@ -40,13 +39,13 @@ public class Door : MonoBehaviour
         );
     }
 
-    // if (!isOpen && transform.position.y > startY)
-    // {
-    //     transform.position = new Vector3(
-    //         transform.position.x,
-    //         transform.position.y - moveSpeed * Time.deltaTime,
-    //         transform.position.z
-    //     );
-    // }
+    if (!isOpen && transform.position.y > startY)
+    {
+        transform.position = new Vector3(
+            transform.position.x,
+            transform.position.y - moveSpeed * Time.deltaTime * 4f,
+            transform.position.z
+        );
+    }
 }
 }
